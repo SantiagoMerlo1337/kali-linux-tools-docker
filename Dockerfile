@@ -7,6 +7,7 @@ RUN apt update -y && \
     apt install python3 -y && \
     apt install python3-pip -y && \
     apt install net-tools -y && \
+    apt install kmod -y && \
     pip install sherlock-project
 
 RUN apt install bettercap -y && \

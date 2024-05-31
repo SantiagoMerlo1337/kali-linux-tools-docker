@@ -1,9 +1,9 @@
-Fichero Dockerfile cono instrucciones para instalar algunas herramientas de kali linux dentro de Docker, ejecutable en cualquier sistema operativo.
+Fichero Dockerfile con instrucciones para instalar algunas herramientas de kali linux dentro de Docker (ejecutable en cualquier sistema operativo).
 
-comandos:
+Comandos:
 
-cd repo/
+cd kali-linux-tools-docker/
 
-docker build --tag hacking .
+sudo docker build --tag hacking .
 
-docker run -it --network=host hacking bash
+sudo docker run -it --privileged --network=host hacking bash

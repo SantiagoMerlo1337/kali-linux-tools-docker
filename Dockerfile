@@ -15,6 +15,7 @@ RUN apt install bettercap -y && \
     apt install hydra -y && \
     apt install nmap -y && \
     apt install aircrack-ng -y && \
+    apt install macchanger -y && \
     apt install crackmapexec -y && \
     apt install wfuzz -y && \
     apt install gobuster -y && \

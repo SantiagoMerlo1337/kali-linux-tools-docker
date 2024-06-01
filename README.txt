@@ -4,6 +4,6 @@ Comandos:
 
 cd kali-linux-tools-docker/
 
-sudo docker build --no-cache --tag hacking .
+sudo docker build --no-cache --tag kali .
 
-sudo docker run -it --privileged --network=host hacking bash
+sudo docker run -it --privileged --network=host kali bash
